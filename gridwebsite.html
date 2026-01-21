@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nature Gallery</title>
+    <link rel="stylesheet" href="gridwebsitestyles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Fun Nature Gallery</h1>
+        <p>Explore beautiful free nature photos while learning CSS Grid!</p>
+    </header>
+
+    <nav>
+        <div class="container">
+            <a href="#">Home</a>
+            <a href="#">Landscapes</a>
+            <a href="#">Forests</a>
+            <a href="#">Mountains</a>
+            <a href="#">Water</a>
+        </div>
+    </nav>
+
+    <main class="main">
+        <aside class="sidebar">
+            <h3>Filter Nature</h3>
+            <p>Try selecting:</p>
+            <ul>
+                <li><input type="checkbox"> Forest</li>
+                <li><input type="checkbox"> Mountains</li>
+                <li><input type="checkbox"> Water</li>
+            </ul>
+
+            <div class="sidebar">
+                <h4>Why this is perfect for Grid class:</h4>
+                <ul>
+                    <li><strong>main</strong> is already a 2-column grid (sidebar + gallery).</li>
+                    <li><strong>.gallery</strong> is a responsive grid of cards, perfect for practicing:
+                        <ul>
+                            <li>grid-template-columns</li>
+                            <li>grid-gap / gap</li>
+                            <li>justify-items / align-items</li>
+                        </ul>
+                    </li>
+                    <li>Hover effects make it interactive and fun.</li>
+                    <li>Students can add their favorite nature images and experiment.</li>
+                    <li>Sidebar filters give a "real gallery feel".</li>
+                </ul>
+            </div>
+        </aside>
+
+        <section class="gallery">
+            <div class="card"><img src="https://media.posterstore.com/site_images/68630da9603ad773cc39b424_1396138746_PS53246-5.jpg"><p>Forest Path</p></div>
+            <div class="card"><img src="https://media.istockphoto.com/id/485371557/photo/twilight-at-spirit-island.jpg?s=612x612&w=0&k=20&c=FSGliJ4EKFP70Yjpzso0HfRR4WwflC6GKfl4F3Hj7fk="><p>Mountain Lake</p></div>
+            <div class="card"><img src="https://media.istockphoto.com/id/962097220/photo/dramatic-sunset-over-an-empty-road-in-utah.jpg?s=612x612&w=0&k=20&c=Hzr0NwZLQnNAm84ZIx5b58IWb5Bmv2PIHc2NyD1A2Qk="><p>Sunset Road</p></div>
+            <div class="card"><img src="https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2F0ZXJmYWxsfGVufDB8fDB8fHww"><p>Waterfall View</p></div>
+            <div class="card"><img src="https://img.freepik.com/free-photo/travel-trekking-summer-landscape-mountains-green-grass-trees-blue-sky_146671-18447.jpg?semt=ais_hybrid&w=740&q=80"><p>Green Forest</p></div>
+            <div class="card"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/e0/ce/85/sunset-beach.jpg?w=1200&h=-1&s=1"><p>Sunset Beach</p></div>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2026 Nature Gallery — CSS Grid Practice!
+    </footer>
+
+</body>
+</html>
